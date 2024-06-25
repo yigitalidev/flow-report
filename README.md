@@ -5,3 +5,4 @@
 - Easy Configurable with Config.lua
 
 - Preview : https://www.youtube.com/watch?v=xT2NxF03kKU 
+- Discord : https://discord.gg/ZPFPEemrZc
