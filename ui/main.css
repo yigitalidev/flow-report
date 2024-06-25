@@ -1,0 +1,276 @@
+* {
+    
+    padding: 0;
+    margin: 0;
+}
+
+
+#container {
+    display: flex;
+    background-color: #1f2029;
+    width: 820px;
+    height: 590px;
+    margin-top: 12%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ 
+h1 {
+    position: relative;
+    color: white;
+    left: 365px;
+    top: 65px;
+    
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    position: relative;
+    color: white; 
+    left: 330px;
+    top: 100px;
+    
+    width: 130px;
+    font-weight: 500;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.reportbutonlar {
+    display: flex;
+}
+
+
+.feedback {
+    position: relative;
+    width: 147px;
+    height: 57px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 170px;
+    left: 45px;
+    background-color: #363747;
+}
+
+.feedback:hover {
+    box-shadow: 1px 1px 10px red;
+}
+
+.feedback:focus {
+    background-color: #c26e2a;
+    box-shadow: 1px 1px 10px black;
+}
+
+
+.bug {
+    position: relative;
+    width: 147px;
+    height: 57px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 170px;
+    left: 60px;
+    background-color: #363747;
+}
+
+.bug:hover {
+    box-shadow: 1px 1px 10px red;
+}
+
+.bug:focus {
+    background-color: #c26e2a;
+    box-shadow: 1px 1px 10px black;
+}
+
+
+
+
+.player {
+    position: relative;
+    width: 147px;
+    height: 57px;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    top: 170px;
+    left: 75px;
+    background-color: #363747;
+}
+
+.player:hover {
+    box-shadow: 1px 1px 10px red;
+}
+
+.player:focus {
+    background-color: #c26e2a;
+    box-shadow: 1px 1px 10px black;
+}
+
+.subject {
+    position: relative;
+
+
+    font-weight: 500;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    
+    border-right: unset;
+    color: white;
+    width: 660px;
+    height: 32px;
+    top: 262px;
+    left: -510px;
+}
+
+.subject:focus {
+   
+    border-bottom-color: #c26e2a;
+}
+
+
+
+.information {
+    position: relative;
+
+
+
+
+    font-weight: 500;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: transparent;
+    border-right: unset;
+    color: white;
+    width: 660px;
+    height: 70px;
+    top: 300px;
+    left: -510px;
+}
+
+
+
+.submit {
+    position: relative;
+    width: 100px;
+    height: 37px;
+    color: white;
+    top: 445px;
+    left: -927px;
+    cursor: pointer;
+    border: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #35993d;
+
+}
+
+.submit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+.closeButton {
+    position: relative;
+    width: 100px;
+    height: 37px;
+    color: white;
+    text-align: center;
+    line-height: 37px;
+    top: 408px;
+    left: -820px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9d3535;
+}
+
+.closeButton:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+a {
+    position: relative;
+    text-decoration: none;
+}
+
+
+i {
+   position: relative;
+}
+
+.fa {
+    left: -10px;
+}
+
+
+
+.feedactive {
+    display: none;
+    position: relative;
+    left: 445px;
+    top: 82px;
+
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.bugactive {
+    display: none;
+    position: relative;
+    left: 445px;
+    top: 82px;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.playeractive {
+    display: none;
+    position: relative;
+    left: 445px;
+    top: 82px;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+

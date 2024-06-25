@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="main.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div id="container">
+
+                <div id="texts" class="texts">
+                    <h1>Report</h1>
+                    <p>Type of Report: </p>
+                    <h4 id="feedactive" class="feedactive">Feedback Report</h4>
+                    <h4 id="bugactive" class="bugactive">Bug Report</h4>
+                    <h4 id="playeractive" class="playeractive">Player Report</h4>
+
+                </div>
+        
+                <div class="reportbutonlar">
+                <div id="feedback" class="feedback"><i class="fa fa-comment"></i>FEEDBACK</div>
+                 <div id="bug" class="bug"><i class="fa fa-cog"></i>BUG</div>
+                   <div id="player" class="player"><i class="fa fa-child"></i>PLAYER</div> 
+        
+        
+                </div>
+        
+                <div class="type">
+                    <input type="text" id="subject" class="subject" placeholder="Subject">
+                    <input type="text" id="information" class="information" placeholder="Information">
+        
+                </div>
+        
+        
+        
+                <div class="altbar">
+                    <button type="submit" id="submit" class="submit">Submit</button>
+                    <div id="closeButton" class="closeButton">Close</div>
+        
+                </div>        
+
+
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>
